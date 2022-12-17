@@ -47,6 +47,9 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.games:games-activity:1.0.0'
+    implementation 'com.google.guava:guava:31.1-jre'
+    implementation fileTree(dir: 'libs', include: ['*.aar', '*.jar'], exclude: [])
+//    implementation project(path: ':matrixlib')
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
