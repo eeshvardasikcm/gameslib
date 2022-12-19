@@ -33,7 +33,13 @@ as a default feature of Android Studio Dolphin.
 I browsed the current commits to the Google games SDK,
 and my impression is that Google games SDK is actively 
 developing for Android 10 compatibility.
-I will have to look at the specific error codes that CMake is failing on.
+- Downgrading to older versions of ndk and cmake are working in Dolphin.
+I will update gameslib with the new updates from my private build platform.
+development schedule has been clearly outlined in my private repository.
+The updates should help to achieve a lower quality C++ build in gameslib for now.
+The Android team at Google appears to be reducing ndk dependencies very rapidly.
+Newer ndk releases appear to be following new releases of cmake very well.
+At this rate, Google will synchronize GamesActivity with cmake and their other libraries efficiently over the next set of releases.
 ## FAQ
 - Q: Where is all the games code?
   - A: previous iterations of gameslib remain as private repositories
