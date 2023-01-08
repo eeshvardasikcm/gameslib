@@ -19,15 +19,14 @@ using the same techniques
 that Eeshvar Das
 is using in his carbon project fork.
 ## Installing gameslib
-Downloading a clone of this repository should work fairly well, 
-however upon creating a new android studio project for game activity,
-Android Studio is unable to build the project.
-I did make some small changes to the build files.
-These changes usually don't break a default Android Studio Dolphin Project.
-Android Studio Dolphin Games Activity UI allows creating the project 
-to target Android 13.
-The appearance is that the version of Android should not be problem.
-### Issue with CMake in Android Studio (workaround possibly available)
+Installing `gameslib` will become easier after the build files are removed.
+### Build files to be removed
+I will be removing the build files to fix the issue with Android Studio and the NDK.
+This is a Google Android Studio issue.
+I'm going to remove the issue from my `gameslib` repository.
+You can view below some suggestions on how to get GameActivity working in your Android Studio.
+
+#### Issue with CMake in Android Studio (workaround possibly available)
 *Workaround:
 Vulcan has active code that depends on GameActivity and the ndk.
 Look into finding how Vulcan handles this issue*
