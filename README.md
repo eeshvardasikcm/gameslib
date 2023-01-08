@@ -27,7 +27,10 @@ These changes usually don't break a default Android Studio Dolphin Project.
 Android Studio Dolphin Games Activity UI allows creating the project 
 to target Android 13.
 The appearance is that the version of Android should not be problem.
-### Issue with CMake in Android Studio Dolphin
+### Issue with CMake in Android Studio (workaround possibly available)
+*Workaround:
+Vulcan has active code that depends on GameActivity and the ndk.
+Look into finding how Vulcan handles this issue*
 I am working on solving this issue so I can proceed using Game Activity
 as a default feature of Android Studio Dolphin.
 I browsed the current commits to the Google games SDK,
